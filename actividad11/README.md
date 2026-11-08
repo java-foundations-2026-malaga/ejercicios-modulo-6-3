@@ -4,6 +4,8 @@
 
 Combina continue para pares y break al llegar a 7.
 
+Recorre los números desde 1: usa `continue` para saltar los pares y `break` al llegar a 7. Muestra los números en la misma línea separados por un espacio.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Combina continue para pares y break al llegar a 7.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

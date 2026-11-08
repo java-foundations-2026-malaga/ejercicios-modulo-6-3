@@ -4,6 +4,8 @@
 
 Recorre la cadena y cuenta las apariciones.
 
+Recorre `text` con un bucle y `charAt` y muestra cuántas letras `w` contiene.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Número de 'w': 3
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

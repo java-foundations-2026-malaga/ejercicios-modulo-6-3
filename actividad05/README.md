@@ -4,6 +4,8 @@
 
 Añade break al llegar al valor 7.
 
+Mantén el bucle `for` y usa `break` para detenerlo al llegar a 7.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Añade break al llegar al valor 7.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

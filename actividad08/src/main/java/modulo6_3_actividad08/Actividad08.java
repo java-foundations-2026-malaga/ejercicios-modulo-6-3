@@ -1,7 +1,7 @@
 package modulo6_3_actividad08;
 
 public class Actividad08 {
-  public static void main(String[] args) {
-    // TODO: usa continue.
-  }
+    public static void main(String[] args) {
+        // TODO: usa continue.
+    }
 }

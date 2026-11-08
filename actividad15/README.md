@@ -4,6 +4,8 @@
 
 Documenta variable, condición, iteraciones, lógica y flujo.
 
+Muestra los divisores de `number` en la misma línea. Añade al menos 3 comentarios (`//`) que expliquen la variable del bucle, la condición, las iteraciones, la lógica y el flujo.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Divisores de 12: 1 2 3 4 6 12
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

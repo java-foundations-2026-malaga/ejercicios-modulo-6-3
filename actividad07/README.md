@@ -4,6 +4,8 @@
 
 Termina sin agregar el centinela.
 
+Lee números con `Scanner` hasta que se introduzca `999` y muestra su suma. No muestres mensajes para pedir los datos (el test introduce `2`, `3`, `4` y `999`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Suma: 9
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

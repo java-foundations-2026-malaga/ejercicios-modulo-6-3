@@ -4,6 +4,8 @@
 
 Ignora notas fuera de 0..100 y calcula el promedio.
 
+Lee diez notas con `Scanner`. Usa `continue` para ignorar las notas menores que 0 o mayores que 100. Muestra cuántas notas son válidas y su promedio como número decimal. No muestres mensajes para pedir los datos.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +31,5 @@ Promedio: 80.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

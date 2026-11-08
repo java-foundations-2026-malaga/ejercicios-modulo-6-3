@@ -4,6 +4,8 @@
 
 Usa break cuando aparezca el primer negativo.
 
+Lee números con `Scanner`; al encontrar el primer negativo, muéstralo con el mensaje `Negative found: ` y sal del bucle con `break`. No muestres mensajes para pedir los datos (el test introduce `4`, `8` y `-3`).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Negative found: -3
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

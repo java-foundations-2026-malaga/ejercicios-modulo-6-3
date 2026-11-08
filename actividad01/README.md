@@ -4,6 +4,8 @@
 
 Reestructura el código para que break sea válido.
 
+Coloca el `if` con el `break` dentro de un bucle (por ejemplo, un `for` que recorra los valores del 1 al 5 y se detenga al encontrar el 3).
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Valor encontrado: 3
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
